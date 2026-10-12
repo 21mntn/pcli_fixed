@@ -1,0 +1,13 @@
+# Exact versions this release was tested against (pip freeze of a working venv).
+# Use this one if requirements.txt ever resolves to something that misbehaves:
+#
+#   ./venv/bin/pip install -r requirements-lock.txt
+
+beautifulsoup4==4.15.0
+certifi==2026.7.22
+charset-normalizer==3.5.2
+idna==3.20
+requests==2.34.2
+soupsieve==3.0.2
+typing_extensions==4.16.0
+urllib3==2.8.0

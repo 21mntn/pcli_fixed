@@ -1,0 +1,14 @@
+# Python dependencies for phub-cli.
+#
+#   python3 -m venv venv && ./venv/bin/pip install -r requirements.txt
+#
+# install.sh does this for you: if the system python already has these, it uses
+# it; otherwise it builds a private venv in /usr/local/share/phub-cli/venv and
+# points the module shebangs at it. On macOS and recent Debian/Ubuntu the
+# system python refuses `pip install` (PEP 668), so the venv is the normal path.
+#
+# Direct imports: requests (modules/search.py, videos.py, stream.py),
+# beautifulsoup4 (modules/search.py, videos.py).
+
+beautifulsoup4>=4.12
+requests>=2.31
